@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Library</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="left-sidebar">
+
+    </div>
+    <div id="app-container">
+      <div class="shelf-wood">
+        <div class="book">The Hobbit by Tolkien</div>
+        <div class="book">The Lord of the Rings by Tolkien</div>
+      </div>
+      <div class="shelf-wood"></div>
+
+    </div>
+    
+    <div id="bottom-display-container">
+      <div id="tab-container">
+        <div id="tab-select-info">Info</div>
+      <div id="tab-select-input">Input</div>
+      </div>
+    <div id="book-info-display">
+      <div id="display-title-container" class="display-attribute-container">
+        <div id="display-title-label" class="display-attribute-label">
+          Title:
+        </div>
+        <div id="display-title-value" class="display-attribute-value">
+          The Hobbit
+        </div>
+      </div>
+      <div id="display-author-container" class="display-attribute-container">
+        <div id="display-author-label" class="display-attribute-label">
+          Author:
+        </div>
+        <div id="display-author-value" class="display-attribute-value">
+          J.R.R Tolkien
+        </div>
+        </div>
+        <div id="display-pages-container" class="display-attribute-container">
+          <div id="display-pages-value" class="display-attribute-value">
+            237 pages
+          </div>
+          </div>
+          <div id="display-buttons-container" class="display-attribute-container">
+            <label class="container">Read
+              <input id="read-checkbox" type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <button type="button" id="remove-book-bttn"><img src="assets/icons/trash.png"display="block"height="40px">Remove Book</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
